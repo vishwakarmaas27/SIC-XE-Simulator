@@ -1,0 +1,7 @@
+PROG2 START 00000
+      LDA BETA
+      MUL #4
+      SUB #9
+      STA ALPHA
+ALPHA RESW 1
+BETA RESW 1
